@@ -1,0 +1,7 @@
+#basic-navbar-nav {
+  justify-content: space-between;
+}
+
+div > .me-auto {
+  margin-right: 0 !important;
+}

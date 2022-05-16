@@ -1,0 +1,9 @@
+.textarea {
+  resize: none;
+  height: 6rem;
+}
+
+.p-profile .btn-container {
+  display: flex;
+  justify-content: flex-end;
+}

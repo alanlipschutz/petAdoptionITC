@@ -1,0 +1,15 @@
+body::after {
+  background: url(https://media.perezlara.com/2021/02/Adopcio%CC%81n-de-mascotas-1.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}

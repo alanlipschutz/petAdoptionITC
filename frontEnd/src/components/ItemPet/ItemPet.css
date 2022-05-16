@@ -1,0 +1,8 @@
+@media (min-width: 600px) {
+  .p-listOfPets .me-auto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+}

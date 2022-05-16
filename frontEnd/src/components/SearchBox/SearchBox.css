@@ -1,0 +1,20 @@
+.c-searchbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.c-searchbox .advancedBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.c-searchbox .advancedBox > div {
+  flex-grow: 1;
+}
+
+.c-searchbox .btn-container {
+  display: flex;
+  justify-content: flex-end;
+}

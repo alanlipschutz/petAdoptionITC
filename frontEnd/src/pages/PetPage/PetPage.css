@@ -1,0 +1,58 @@
+.p-cardPet {
+  display: flex;
+  flex-direction: row;
+}
+
+.p-cardPet img {
+  max-width: 45%;
+  flex-basis: 45%;
+}
+.p-cardPet .petInfo {
+  flex-basis: 55%;
+  display: flex;
+}
+.p-cardPet span {
+  display: block;
+}
+
+.p-cardPet .btn-container {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 985px) {
+  .p-cardPet {
+    flex-direction: column;
+  }
+  .p-cardPet img {
+    max-width: 100%;
+    max-height: 18rem;
+  }
+  .p-cardPet .petInfo {
+    flex-direction: column;
+  }
+  .p-cardPet .btn-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 568px) {
+  .p-cardPet .btn-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.p-cardPet button span {
+  margin: 0;
+}
+
+.p-cardPet .adopt-status {
+  padding: 1rem;
+  border-radius: 10px;
+  height: 3.5rem;
+}
+.p-cardPet .card-footer {
+  padding: 0;
+}

@@ -1,0 +1,19 @@
+.same-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.same-line > div {
+  flex-grow: 1;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  /* padding: 0.375rem 1.5rem; */
+  min-width: 120px;
+}
